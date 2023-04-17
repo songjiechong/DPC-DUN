@@ -8,7 +8,14 @@ Deep unfolding network (DUN) that unfolds the optimization algorithm into a deep
 selector can dynamically select a rapid and appropriate route for each image and is slimmable by regulating different performance-complexity tradeoffs. Extensive experiments show that our DPC-DUN is highly flexible and can provide excellent performance and dynamic adjustment to get a suitable tradeoff, thus addressing the main requirements to become appealing in practice.
 
 ## :fire: Network Architecture
-![Network](/figs/network.PNG)
+![Network](/Figs/network.png)
+
+## 🚩 Results
+###  Qualitative Evaluation
+![Set11](/Figs/set11.png)
+![CBSD_DIV2K](/Figs/CBSD68_DIV2K.png)
+### The controllable effect of DPC-DUN
+![DPC-DUN](/Figs/controllable.png)
 
 ## 🔧 Requirements
 - Python == 3.8.5
