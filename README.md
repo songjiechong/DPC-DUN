@@ -13,7 +13,7 @@ selector can dynamically select a rapid and appropriate route for each image and
 ## 🚩 Results
 ###  Qualitative Evaluation
 ![Set11](/Figs/set11.png)
-![CBSD_DIV2K](/Figs/CBSD68_DIV2K.png)
+![CBSD_DIV2K](/Figs/Urban_DIV2K.png)
 ### The controllable effect of DPC-DUN
 ![DPC-DUN](/Figs/controllable.png)
 
