@@ -25,6 +25,12 @@ selector can dynamically select a rapid and appropriate route for each image and
 - Train data: [train400](https://drive.google.com/file/d/15FatS3wYupcoJq44jxwkm6Kdr0rATPd0/view?usp=sharing)
 - Test data: Set11, [CBSD68](https://drive.google.com/file/d/1Q_tcV0d8bPU5g0lNhVSZXLFw0whFl8Nt/view?usp=sharing), [Urban100](https://drive.google.com/file/d/1cmYjEJlR2S6cqrPq8oQm3tF9lO2sU0gV/view?usp=sharing), [DIV2K](https://drive.google.com/file/d/1olYhGPuX8QJlewu9riPbiHQ7XiFx98ac/view?usp=sharing)
 
+## :computer: Command
+### Train
+`python Train_CS_DPCDUN.py --cs_ratio 5/10/25/30/40/50`
+### Test
+`python TEST_CS_DPCDUN.py --cs_ratio 5/10/25/30/40/50 --test_name Set11/CBSD68/Urban100/DIV2K`
+
 ## 📑 Citation
 If you find our work helpful in your resarch or work, please cite the following paper.
 ```
